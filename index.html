@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Without Recommendations</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h1><a id="home-link" href="/"><p>YouTube</p><p> Without Recommendations</p></a></h1>
+      <div class="search-container">
+        <form id="channel-form">
+          <div id="search-bar">
+            <input id="channel-input" type="text" placeholder="Search..." />
+            <button id="channel-search" type="submit"><i class="fas fa-search"></i></button>
+          </div>
+        <h2 id="search-message">Search for a channel to see their latest videos</h2>
+        </form>
+      </div>
+      <div id="list-container">
+        <ul id="channel-list"></ul>
+        <ul id="channel-video-list"></ul>
+        <div id="embedded-video-container"></div>
+      </div>
+      <div id="spacer"></div>
+    </div>
+    <div id="footer"><p> Look at the source on <a href="https://github.com/domorecalculus/cs260-cp2">Github</a></p></div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
